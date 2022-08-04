@@ -1,4 +1,4 @@
-resource "aws_ami" "Anant" {
+resource "aws_instance" "Anant" {
   ami = "ami-068257025f72f470d"
   instance type = "t2.micro"
   count = 1
